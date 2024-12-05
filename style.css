@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    background-color: #121212; /* Dark background */
+    color: #ccc; /* Light gray text */
+    text-align: center; /* Centers text */
+    box-sizing: border-box;
+}
+
+p.info {
+    margin: 0;
+    line-height: 1.5;
+    max-width: 75%; /* Keeps text from stretching too wide */
+    padding: 20px; /* Adds some space around the text */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+p.home {
+    margin: 0;
+    line-height: 1.5;
+}
+
